@@ -1,6 +1,6 @@
 body {
   background-image:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
-  border: 3px solid rgba(60,142,238,0.35);
+  border: 3px ridge rgba(60,142,238,0.5);
   margin-bottom:45px;
 }
 
@@ -16,12 +16,22 @@ h1, p, ul, li {
 h2 {
   position:relative;
   font-size: 4.5em ;
-  background-color: rgb(66,185,187);
+  background: #42ffbb; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #42ffbb 0%, #42ccff 98%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#42ffbb), color-stop(98%,#42ccff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* IE10+ */
+  background: linear-gradient(135deg,  #42ffbb 0%,#42ccff 98%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42ffbb', endColorstr='#42ccff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   margin-left:50px;
   margin-right:50px;
   margin-bottom:70px;
   padding:20px;
   color:rgba(64,74,85,1);
+  text-shadow: 5px 5px 10px #5695BB;
+
 }
 
 h1 {
@@ -85,10 +95,12 @@ h1 {
 
 .schedule li:nth-child(even) {
   background-color:rgba(64,74,85,0.3);  
+  border-right:8px solid rgba(64,74,85,1);
 }
 
 .schedule li:nth-child(odd) {
   background-color:rgba(73,74,85,0.5);  
+  border-right:8px solid rgba(73,74,85,1);
 }
 
 .third_group {  
@@ -105,11 +117,11 @@ h1 {
 
 aside {
   padding-bottom:10px;
-  margin-left:80px;
-  margin-bottom:100px;
-  margin-right:50px;
+  margin:50px 50px 100px 80px;
   display:inline-block;
   background-color:rgba(73,74,85,0.5);
+-webkit-box-shadow: 5px 05px 40px 05px rgba(238,129,85,1);
+box-shadow: 5px 05px 40px 05px rgba(238,129,85,1);
 }
 
 .analysis,
@@ -118,6 +130,7 @@ aside {
   display:inline-block;
   margin-right:50px;
   margin-left:10px;
+  vertical-align: top;
 }
 
 .self_evaluation {
@@ -148,17 +161,22 @@ a {
   font-size:25px;
   position:fixed;
   max-width:200px;
-  height:40px;
+/*  height:40px;*/
   right:200px;  
   bottom:5px;
   background-color:rgba(238,72,60,1);
   outline: 2px solid;
+  padding:0.2em 0.2em  0.2em 0em;
   text-decoration:none;
 }
 
 a:hover {
-  background-color:rgba(60,141,238,0.8);
-  color:white;
+  background-color:#42ffbb;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
 }
 
 
