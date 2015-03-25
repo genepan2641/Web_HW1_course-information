@@ -5,7 +5,7 @@ body {
 }
 
 p, ul, li{
-  font-family: Helvetica,'·L³n¥¿¶ÂÅé', sans-serif;
+  font-family: Helvetica,'Â·LÂ³nÂ¥Â¿Â¶Ã‚Ã…Ã©', sans-serif;
   font-size: 17px;
 }
 
@@ -120,8 +120,8 @@ aside {
   margin:50px 50px 100px 80px;
   display:inline-block;
   background-color:rgba(73,74,85,0.5);
--webkit-box-shadow: 5px 05px 40px 05px rgba(238,129,85,1);
-box-shadow: 5px 05px 40px 05px rgba(238,129,85,1);
+-webkit-box-shadow: 5px 5px 40px 5px #7D540E;
+box-shadow: 5px 5px 40px 5px #7D540E;
 }
 
 .analysis,
