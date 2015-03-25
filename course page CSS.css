@@ -120,8 +120,10 @@ aside {
   margin:50px 50px 100px 80px;
   display:inline-block;
   background-color:rgba(73,74,85,0.5);
--webkit-box-shadow: 5px 5px 40px 5px #7D540E;
-box-shadow: 5px 5px 40px 5px #7D540E;
+
+-webkit-box-shadow: 5px 5px 40px 5px rgba(238,129,85,0.3);
+box-shadow: 5px 5px 40px 5px rgba(238,129,85,0.3);
+
 }
 
 .analysis,
